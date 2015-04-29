@@ -839,7 +839,7 @@
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: none;
 			}
 
 				#banner .inner p a {
