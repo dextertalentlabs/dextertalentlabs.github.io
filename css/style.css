@@ -834,7 +834,7 @@
 					
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: none;
 				}
 
 			#banner .inner p {
