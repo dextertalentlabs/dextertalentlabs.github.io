@@ -610,9 +610,9 @@
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: white;
+		background: #83d3c9;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		color: inherit;
+		color: black !important;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
@@ -634,6 +634,7 @@
 
 		#header nav {
 			letter-spacing: 0.075em;
+			/*color:#83d3c9!important;*/
 			position: absolute;
 			right: 1.5em;
 			text-transform: uppercase;
