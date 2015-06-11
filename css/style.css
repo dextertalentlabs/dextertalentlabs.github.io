@@ -23,7 +23,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #000000;
+		color: #7c8081;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -610,9 +610,9 @@
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: #83d3c9;
+		background: white;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		color: black !important;
+		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
@@ -634,7 +634,6 @@
 
 		#header nav {
 			letter-spacing: 0.075em;
-			/*color:#83d3c9!important;*/
 			position: absolute;
 			right: 1.5em;
 			text-transform: uppercase;
@@ -787,8 +786,8 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #000000;
-		background-image: url("../images/banner.jpg");
+		background-color: #c2372c;
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");*/
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -809,7 +808,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(0, 0, 0, 0);
+			background: rgba(52, 27, 43, 0.1);
 			color: white;
 			display: inline-block;
 			opacity: 0;
@@ -829,21 +828,18 @@
 					border-bottom: solid 2px;
 					border-top: solid 2px;
 					font-size: 2.5em;
-					font-weight: 800;
+					font-weight: 900;
 					letter-spacing: 0.2em;
 					margin: 0;
-					
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: none;
+					text-transform: uppercase;
 				}
 
 			#banner .inner p {
-				font-size: 1.24em;
-				letter-spacing: 0.15em;
+				letter-spacing: 0.1em;
 				margin: 0;
-				color:green !important;
-				text-transform: none;
+				text-transform: uppercase;
 			}
 
 				#banner .inner p a {
