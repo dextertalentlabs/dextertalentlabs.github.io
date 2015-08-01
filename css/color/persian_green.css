@@ -1,0 +1,115 @@
+
+.section_bg_color,
+.portfolio_gallery .single_portfolio figure:after,
+.footer_module.flicker_widgets a i {
+  background: rgba(0, 183, 150,.85);
+}
+.verticle_tab_section .nav li.active a,
+.featured_section .single_feature i,
+.section_title h2:before,
+.price_table.active, .price_table:hover,
+.portfolio_gallery,
+.portfolio_section .portfolio_menu ul li a:hover, 
+.portfolio_section .portfolio_menu ul li a.focus, 
+.portfolio_section .portfolio_menu ul li a.active,
+.testimonial_slider_nav li.flex-active:before,
+.client_testimonial_section,
+.single_team .img_box div.social,
+.footer_section,
+.go_top,
+.contact_section .common_btn:hover,
+div.light_square .pp_left, 
+div.light_square .pp_middle, 
+div.light_square .pp_right, 
+div.light_square .pp_content,
+.single_team .social{
+  background: #00b796;
+}
+.single_team .img_box:after {
+  border-color: #00b796 transparent transparent #00b796;
+}
+.single_team .img_box:before {
+  border-color:  transparent #00b796 #00b796  transparent;
+}
+/*Border color*/
+.featured_section .single_feature,
+.section_title h2:after,
+.section_title h2:after,
+.section_title h2,
+.common_btn,
+.portfolio_section .portfolio_menu ul li a,
+.contact_section .form-control,
+.gmap_area{
+	border-color:#00b796;
+}
+.testimonial_slider_nav li.flex-active:after{
+	border-top-color:#00b796;
+}
+.go_top:before{
+	border-bottom-color: #00b796;
+}
+/*Text Color*/
+.fixed_menu_top .min_menu ul li a:hover, 
+.fixed_menu_top .min_menu ul li.active a, 
+.fixed_menu_top .min_menu ul li a.active,
+.tow_column_common_section h2 span,
+.section_title h2 span,
+.email_subcrib_section button:hover,
+.verticle_tab_section .nav li a span,
+.price_table li a:hover,
+.price_table li h2,
+.common_btn,
+.footer_social a,
+.callto_section .common_btn:hover,
+.portfolio_section .portfolio_menu ul li a,
+.testimonial_slider_nav li.flex-active h4, 
+.testimonial_slider_nav li.flex-active p span, 
+.testimonial_slider_nav li:hover p span, 
+.testimonial_slider_nav li:hover h4,
+.single_team .text > h2,
+.slider_section .slider_button a:hover,
+.price_table li div p,
+.portfolio_gallery .single_portfolio:hover figure a:hover{
+  color: #00b796;
+}
+.fixed_menu_top .min_menu ul li a:hover, 
+.fixed_menu_top .min_menu ul li.active a, 
+.fixed_menu_top .min_menu ul li a.active{
+	  color: #00b796 !important;
+}
+
+/*Hover color*/
+
+/***********************Secondary Color*******************/
+/*Background Color*/
+.price_table.active:before, .price_table:hover:before {
+  background-color: #009F7E;
+}
+.featured_section .single_feature {
+  background:#a2d7d8;
+}
+/*Text Colors*/
+
+/*Hover color*/
+/*border color*/
+.price_table.active, .price_table:hover{
+	border-bottom-color:#009F7E;
+}
+
+
+
+@media (max-width: 767px) {
+	.min_menu ul{
+		background:#00B796;
+	}
+	.fixed_menu_top .icon-bar{
+		background-color:#00B796;
+	}
+	.fixed_menu_top .min_menu ul li a:hover, 
+	.fixed_menu_top .min_menu ul li.active a, 
+	.fixed_menu_top .min_menu ul li a.active,
+	.min_menu ul li a:hover{
+		color:#fff !important;
+	}
+	
+}
